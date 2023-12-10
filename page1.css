@@ -1,0 +1,364 @@
+*{margin:0;
+padding:0;
+}
+
+#box1{
+    width:1000px;
+    height:100px;
+    position:fixed;
+    margin-left:200px;
+    z-index:1;
+    background:#79face;
+    }
+    
+    #box2{
+    width:1000px;
+    height:2000px;
+    margin-left:200px;	
+    }
+    
+    #logobox1{
+    width:300px;
+    height:100px;
+    float:left;		
+    }
+    #logo1{
+    margin-left:40px;
+    }
+    #contentbox{
+    width:700px;
+    height:100px;
+    float:left;	
+    }
+    #contentbox1{
+    width:700px;
+    height:30px;
+    float:left;	
+    }
+    #aboutzoo{
+    width:115px;
+    height:30px;
+    float:left;
+    text-align:center;		
+    }
+    #guideforguest{
+    width:115px;
+    height:30px;
+    float:left;	
+    text-align:center;		
+    }
+    #shop{
+    width:115px;
+    height:30px;
+    float:left;
+    text-align:center;			
+    }
+    #contact{
+    width:115px;
+    height:30px;
+    float:left;
+    text-align:center;			
+    }
+    #donate{
+    width:115px;
+    height:30px;
+    float:left;
+    text-align:center;			
+    }
+    #search{
+    width:115px;
+    height:30px;
+    float:left;	
+    text-align:center;		
+    }
+    #contentbox2{
+    width:700px;
+    height:30px;
+    float:left;
+    text-align:center;			
+    }
+    #contentbox3{
+    width:700px;
+    height:30px;
+    float:left;		
+    }
+    
+
+#aboutzoo{
+width:115px;
+height:30px;
+float:left;	
+text-align:center;	
+}
+#guideforguest{
+width:115px;
+height:30px;
+float:left;	
+text-align:center;	
+}
+#shop{
+width:115px;
+height:30px;
+float:left;
+text-align:center;		
+}
+.contact{
+width:115px;
+height:30px;
+float:left;
+text-align:center;
+}
+.contact {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-contenta {
+    display: none;
+    position: absolute;
+	top:20px;
+    background-color: #25fa70;
+    min-width: 130px;
+    z-index: 1;
+}
+
+.contact:hover .dropdown-contenta{
+    display: block;
+}
+
+.dropdown-contentb{
+    display: none;
+    position: absolute;
+	top:40px;
+    background-color: #25fa70;
+    min-width: 130px;
+    z-index: 1;
+}
+
+.contact:hover .dropdown-contentb{
+    display: block;
+}
+
+.dropdown-contentc{
+    display: none;
+    position: absolute;
+	top:60px;
+    background-color: #25fa70;
+    min-width: 130px;
+    z-index: 1;
+}
+
+.contact:hover .dropdown-contentc{
+    display: block;
+}
+
+
+#donate{
+width:115px;
+height:30px;
+float:left;
+text-align:center;	
+}
+#search{
+width:115px;
+height:30px;
+float:left;
+text-align:center;			
+}
+
+#link{
+	text-decoration:none;
+}
+
+#link:hover{
+	color:#33c617;
+}
+
+
+#planyourvisit{
+width:175px;
+height:30px;
+float:left;	
+text-align:center;	
+}
+
+#animals{
+width:175px;
+height:30px;
+float:left;
+text-align:center;		
+}
+
+#education{
+width:175px;
+height:30px;
+float:left;
+text-align:center;		
+}
+
+#conservation{
+width:175px;
+height:30px;
+float:left;	
+text-align:center;	
+}
+
+#gallerybox{
+width:1000px;
+height:500px;
+float:left;	
+margin-top:100px;
+}
+
+#col-md-6 border-right-no-mobile{
+float:left;
+margin-left:400px;	
+}
+#form1{
+float:left;
+
+}
+
+.box {
+    max-width: 500px;
+    background: #79face;
+    border-radius: 8px;
+    padding: 20px;
+}
+        .comment {
+    display: block;
+    transition: all 1s;
+}
+.afterText {
+    min-height: 0px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 5px 10px
+}
+        .box textarea {
+    width: 100%;
+    border: none;
+    background: #262626;
+    padding: 15px;
+    height: 50%;
+    border-radius: 5px;
+    transition: all 0.5s;
+    margin-top: 15px;
+    color: #fff;
+    font-family: montserrat;
+}
+        button.btn-box {
+    background: #04922f;
+    color: #fff;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 1s all;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+        button.btn-box:hover {
+    background: rgb(73, 247, 102);
+}
+  
+#footer{
+width:1000px;
+height:500px;
+background:#14bc8b;
+float:left;
+float:left;
+}
+
+#footerbox{
+width:1000px;
+height:465px;
+float:left;
+}	
+#contentk{
+width:250px;
+height:465px;
+float:left;
+color:white;
+}		
+#contentl{
+width:210px;
+height:325px;
+float:left;
+font-weight:bold;
+font-size:25px;
+padding:20px;
+color:white;
+}		
+#contentm{
+width:210px;
+height:325px;
+float:left;
+font-weight:bold;
+font-size:20px;
+padding:20px;
+color:white;
+}		
+#contentn{
+width:210px;
+height:325px;
+float:left;
+font-weight:bold;
+font-size:20px;
+padding:20px;
+color:white;
+}	
+#allcontent{
+width:980px;
+height:15px;
+float:left;
+font-weight:bold;
+font-size:20px;
+padding:10px;
+color:white;
+}	
+
+#socialmedia{
+width:230px;
+height:100px;
+float:left;
+margin-top:90px;
+}						
+
+#facebook{
+width:56px;
+height:56px;
+float:left;
+background:url(image/im48.png);
+margin-top:25px;
+}
+#twitter{
+width:56px;
+height:56px;
+float:left;
+background:pink;
+background:url(image/im46.png);
+margin-top:25px;
+}		
+#pininterest{
+width:56px;
+height:56px;
+float:left;
+background:pink;
+background:url(image/im44.png);
+margin-top:25px;
+}		
+#youtube{
+width:56px;
+height:56px;
+float:left;
+background:pink;
+background:url(image/im45.png);
+margin-top:25px;
+}				
+
+
+
+

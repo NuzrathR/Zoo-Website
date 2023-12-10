@@ -1,0 +1,312 @@
+<html>
+<head> <title>
+homepage
+</title> 
+<link href="index.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div id="box1">
+<div id="logobox1"> <img id="logo1" src="image/logo1.png" width="200" /> </div>
+<div id="contentbox"> 
+<div id="contentbox1"> 
+<div id="aboutzoo"> About the zoo </div>
+<div id="guideforguest"> Guide for Guests </div>
+<div id="shop">  Shop </div>
+<div class="contact">
+  <span> contact </span>
+  <div class="dropdown-contenta">
+    <p> Animal Inquiries </p>
+</div>
+
+<div class="dropdown-contentb">
+    <p> Planning Your Visit </p>
+</div>
+
+<div class="dropdown-contentc">
+    <p> Membership Inquiries</p>
+</div>
+
+</div>
+
+<div id="donate"> Donate Now </div>
+<div id="search"> Search </div>
+
+</div>
+
+<div id="contentbox2"> OPEN 365 DAYS A YEAR & FREE  LOCATION, HOURS & DIRECTIONS </div>
+
+<div id="contentbox3">
+<div id="planyourvisit"> <a href="page4.html" id="link"> PLAN YOUR VISIT  </a> </div>
+<div id="animals"> <a href="page2.html" id="link" >ANIMALS </a> </div>
+<div id="education"> <a href="page3.html" id="link"> EDUCATION </a> </div>
+<div id="conservation"> <a href="page1.html" id="link">CONSERVATION & SCIENCE </a> </div>
+
+</div>
+
+</div>
+</div>
+<div id="box2"> 
+<div id="gallerybox">  
+<div class="imagegallery"> 
+
+<div class="slide">
+  <img class="mySlides" src="image/im56.png" width="710" height="500">
+  <img class="mySlides" src="image/im57.png" width="710" height="500">
+  <img class="mySlides" src="image/im58.png" width="710" height="500">
+  <img class="mySlides" src="image/im59.png" width="710" height="500">
+  <img class="mySlides" src="image/im60.png" width="710" height="500">
+  <img class="mySlides" src="image/im61.png" width="710" height="500">
+
+  <div class="buttonleft" onclick="plusDivs(-1)"><img src="image/arr2.png"/></div>
+  <div class="buttonright" onclick="plusDivs(1)"><img src="image/arr1.png"/></div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 4000); 
+}
+</script>
+
+ </div>
+
+<div id="gallerycontent"> A.D.O.P.T. an animal today
+Animals Depend On People Too. When you ADOPT a Lincoln Park Zoo animal, you support expert animal care, and you can get a wildly unique gift for the animal lover in your life!
+
+<div id="readmore"> CLICK TO ADOPT </div>
+</div>
+</div>
+
+<div id="morecontent">
+<div id="donatenow"> <p id="one"> DONATE TODAY </p>
+</br>
+Keep the zoo free and open to all 
+
+<div id="donateimage">  </div>
+
+  </div>
+<div id="joinnow">  <p id="one"> JOIN Now </p>
+</br>
+ Enjoy all the benefits of zoo membership 
+
+<div id="joinnowimage">  </div>
+ </div>
+<div id="news"> <p id="one"> NEWSLETTER SIGNUP </p> 
+</br>
+ENTER EMAIL  SUBMIT 
+
+<div id="newsimage">  </div>
+</div>
+<div id="adopt"> <p id="one"> ADOPT AN ANIMAL </p>
+</br> 
+Contribute to care for your favorite species 
+<div id="adoptimage">  </div>
+ </div>
+<div id="shoplist"> <p id="one"> SHOP WISH LIST  </p>
+</br>
+Purchase goodies for the zoo’s animals
+<div id="shoplistimage">  </div>
+ </div> 
+</div>
+
+<div id="zoobox">
+<div id="dayatzoo"> A Day AT THE ZOO
+PLAN YOUR VISIT
+</div> 
+
+<div id="imgbox"> 
+<div id="newarrivals">  NEW ARRIVALS</div>
+<div id="exhibits"> EXHIBITS </div>
+<div id="animalbox"> ANIMALS </div>
+<div id="dailyactivities"> DAILY ACTIVITIES </div>
+
+</div>
+
+</div>
+
+<div id="zooeventbox">
+<div id="zooevent"> Zoo Events 
+All Events
+</div> 
+<div id="imgbox1"> 
+<div id="aa"> 
+<div id="imga"> </div>
+<div id="imgacontent">
+<div id="imgwarofworld"> WAR OF THE WORLDS RADIO THEATER TRIBUTE </div>
+<div id="contenta"> 
+Thursday, October 25
+Travel back to Grover’s Mill, New Jersey, on October 30, 1938, as we recreate the classic Orson Welles broadcast of The War of the Worlds!
+</div>
+</div>
+</div>
+
+<div id="ab">
+<div id="imgb"> </div>
+<div id="imgbcontent">
+<div id="imgfitness"> FITNESS AT THE ZOO </div>
+<div id="contentb"> 
+Select dates through September 30, 2018
+Keep your life wild and free with Lincoln Park Zoo’s newly expanded Fitness at the Zoo program in 2018! 
+</div>
+</div>
+</div>
+
+<div id="ac">
+<div id="imgc"> </div>
+<div id="imgccontent">
+<div id="imgadultnightout"> ADULTS NIGHT OUT: THE GREAT PUMPKIN GLOW </div>
+<div id="contentc"> 
+Thursday, October 18
+Ever wondered what it would be like to explore Lincoln Park Zoo after the gates close? Here’s your chance! Leave the kids at home and head to the zoo for Adults Night Out.
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id="recentnewsbox"> 
+<div id="recentnews"> RECENT NEWS ALL NEWS
+</div>
+<div id="imgbox2">
+
+<div id="ba"> 
+<div id="imgd"> </div>
+<div id="imgdcontent"> 
+<div id="imglinconpark"> Lincoln Park Zoo KING THEN AND NOW </div>
+<div id="contentd"> 
+World Rhino Day is Saturday, September 22! In celebration of the occasion, we'll have some...
+</div>
+</div>
+</div>
+
+<div id="bc"> 
+<div id="imge"> </div>
+<div id="imgeeontent"> 
+<div id="imgaletteron">  Take action with us A LETTER ON BEHALF OF THE ENDANGERED SPECIES ACT </div>
+<div id="contente"> 
+Lincoln Park Zoo recently sent this letter to the U.S. Fish and Wildlife Service regarding...
+</div>
+
+</div>
+</div>
+
+<div id="bd"> 
+<div id="imgf"> </div>
+<div id="imgfcontent"> 
+<div id="imgraisingvoice">  Take action with us RAISING OUR VOICES FOR THE ENDANGERED SPECIES ACT </div>
+<div id="contentf"> 
+The Endangered Species Act is recognized globally as a model for species preservation and has...
+</div>
+
+</div>
+</div>
+
+<div id="be"> 
+<div id="imgh"> </div>
+<div id="imghcontent"> 
+<div id="postfrom">  Posts from the President A ZOO DIRECTOR TAKES FLIGHT </div>
+<div id="contenth"> We don’t normally make staff personnel announcements on Lincoln Park Zoo’s news blog, but this...
+
+</div>
+
+</div>
+</div>
+
+<div id="bf"> 
+<div id="imgi"> </div>
+<div id="imgicontent"> 
+<div id="nature">  
+Nature Boardwalk
+Fall Migrants: Butterflies and Birds of Nature Boardwalk </div>
+
+<div id="contenti"> Lincoln Park Zoo’s Urban Wildlife Institute observes...
+
+</div>
+</div>
+</div>
+
+<div id="bg"> 
+<div id="imgj"> </div>
+<div id="imgjcontent"> 
+<div id="teamup">  
+Lincoln Park Zoo
+Teaming Up for a Polar Bear X-Ray
+</div>
+
+<div id="contentj"> Preventive care for Lincoln Park Zoo’s animals is a team effort: among animal care staff,...
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div id="footer"> 
+<div id="footerbox"> 
+<div id="contentk"> <img id="logo1" src="image/logo1.png" width="200"/> </div>
+<div id="contentl">
+  
+Support 
+<br/>
+Privacy Policy
+<br/>
+Location & Directions
+<br/>
+Press Room
+<br/>
+Contact Us
+<br/>
+ </div>
+<div id="contentm"> Plan A Private Event  
+Volunteer  
+Careers
+</div>
+<div id="contentn">Sign Up for ZooMail Weekly 
+<div id="socialmedia">
+<div id="facebook"> </div>
+<div id="twitter"> </div>
+<div id="pininterest"> </div>
+<div id="youtube"> </div>
+
+</div>
+
+</div>
+</div>
+<div id="allcontent"> All Content © Lincoln Park Zoo.
+ 2001 North Clark Street • Chicago, IL 60614 • 312-742-2000 
+ </div>
+ </div>
+
+</div>
+
+</body>
+</html>
